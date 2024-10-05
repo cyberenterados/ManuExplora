@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/name-role-value": "off",
+    "disown-opener": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 129",
+    "not and_ff <= 130",
+    "not chrome <= 129",
+    "not edge <= 129",
+    "not firefox <= 130",
+    "not ios_saf <= 18",
+    "not opera <= 114",
+    "not safari <= 18",
+    "not samsung <= 25"
+  ]
+}
